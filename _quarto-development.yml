@@ -1,0 +1,10 @@
+project:
+  title: "dataVizColorAccess"
+
+format:
+  html:
+    axe:
+      output: document
+
+editor: visual
+

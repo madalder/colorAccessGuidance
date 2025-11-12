@@ -1,0 +1,79 @@
+## Part 1: The Science of Color and Human Perception {#sec-partOne}
+
+### What is Color, Really? {#sec-whatIsColor}
+
+The word "color" means different things in different fields:
+
+-   A lamp maker thinks of color as the physical light a bulb produces.
+
+-   An artist might think of it as a pigment or paint.
+
+-   A psychologist thinks of it as the sensation we experience.
+
+-   A physicist defines color as specific wavelengths of light within the visible spectrum that humans can see.
+
+Because of these different perspectives, it's helpful to make a clear distinction:
+
+-   *Color Stimulus*: This is the physical source—like the light from a lamp or the wavelengths reflected by a paint. It's the objective, measurable part.
+
+-   *Color Sensation (or Perception)*: This is the color you actually see. It's the personal experience created when your eyes and brain process the color stimulus.
+
+#### Putting it all together:
+
+In physics, color is defined by wavelengths of light in the visible spectrum (roughly between 400 and 700 nanometers). The human eye perceives these wavelengths as different colors. For example, 400 nm wavelengths appear as a dull violet, and 700 nm as a dull red.
+
+Materials like pigments, inks, and paints are what we use to create a color stimulus, but they themselves are not "color." They work by absorbing some wavelengths of light and reflecting others, which then become the stimulus for our color sensation.
+
+### The Mechanics of Human Vision {#sec-humanVision}
+
+-   Brief overview of how our eyes and brain process light to create color sensation
+-   Light of various wavelengths hits the eye's lens, which focuses the light onto the light-sensitive cells in the back of the eye (the retina)
+-   There are 3 main kinds of light-sensitive cells, but in this context we are most interested in cones, which are the cells responsible for daylight and color vision
+    -   The other main kinds are rods, which help with night vision and ganglion cells, which help the eye adjust the amount of light that enters the eye, among other things
+-   Typically, humans have 3 kinds of cones that respond most to different wavelengths:
+    -   S cones are most sensitive to shorter wavelengths, M cones to medium wavelengths, and L cones to long wavelengths.
+-   The home of the light sensitive cells, the retina, connects to a part of the brain called the thalamus brain via the optic nerve
+-   The thalamus processes the information from both eyes and sends it to the visual cortex
+-   This is where the sensation of color actually begins! The visual cortex starts by processing lightness/darkness contrast, finding edges and fine details. Then, later stages separately process the color hue and chroma of the image
+-   This image is then sent to the **prefrontal cortex**, which processes that information along with other information, like emotions and memories. This all helps us to not only see but to understand what we are seeing and make sense of objects, movement, depth perception, light and color.
+
+### Colorimetry: The Science of Quantifying Color {#sec-Colorimetry}
+
+::::: columns
+::: {.column width="40%"}
+**Colorimetry** is the science of measuring color and using math to describe how we perceive it. It's the foundation for all our modern color technology, from color TV to the screens on our smartphones and computers.
+
+This entire field is based on a standard color model created in 1931, known as the CIE color space.
+
+A color space is a specific system for defining and naming colors. Think of it like a recipe that uses numbers to describe a color precisely.
+:::
+
+::: {.column style="padding-left: 15px;"}
+Different color spaces are made for different purposes:
+
+-   **For Screens and Print:** Color spaces like **RGB** (for TVs, computers, and phones) and **CMYK** (for printers) are based on how these devices create color by mixing light or ink.
+
+-   **For Human Vision:** Some color spaces are designed to match how our eyes actually see color.
+
+-   **For Specific Tasks:** Others are created to be useful for particular jobs, like photo editing or scientific work.
+:::
+:::::
+
+The associated graphic is a map of human color vision. The full, kidney-shaped area shows every color a typical human eye can see based on the CIE color space.
+
+![.](images/CIE1931xy_gamut_comparison.svg){#colorspace fig-alt="Graph displaying the range of typical human color vision with shapes overlaid showing the colors that can be represented in sRGB and CMYK color spaces."}
+
+::::: columns
+::: column
+![](images/colors_additive.svg){#additive fig-alt="Three circles (one blue, one green, and one red) on a black background overlap as if a venn diagram where 2 circles overlap to make cyan, yellow, and magenta, and then shows white where all three overlap."}
+
+The **triangle** inside shows the range of colors a standard computer monitor can display (sRGB). This is an example of **additive** color mixing, where adding one set of wavelengths to another to create a new color.
+:::
+
+::: column
+![](images/colors_subtractive.svg){#subtractive fig-alt="Three circles (one cyan, one magenta, and one yellow) on a white background overlap as if a venn diagram where 2 circles overlap to make red, green, and blue, and then shows black where all three overlap."}
+
+The **pentagon shaped** shows the range of colors available via CMYK printing, which is a form of **subtractive** color mixing. Instead of adding light, it creates color by *removing* or *absorbing* certain wavelengths of light. Think about mixing paints or inks. Each paint absorbs specific colors of light and when you mix two paints, they absorb more light together. You only see the color that *both* paints reflect back. In other words, mixing subtracts or "deletes" wavelengths of light before they reach your eye.
+:::
+:::::
+

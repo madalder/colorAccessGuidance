@@ -1,0 +1,346 @@
+---
+title: "Designing with Color for Inclusive and Effective Data Visualization"
+subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
+
+---
+
+
+
+{{< include _guide.qmd >}}
+
+{{< include _partOne.qmd >}}
+
+{{< include _partTwo.qmd >}}
+
+{{< include _partThree.qmd >}}
+
+
+## Appendix
+
+### Terms and Definitions
+
+-   **Additive Color Mixing**: Creating colors by adding different wavelengths of light together (used in screens).
+-   **APCA (Accessible Perceptual Contrast Algorithm)**: A modern method for calculating color contrast that considers human perception factors like font size and weight.
+-   **CIELAB/LCh**: Color spaces designed around human perception that ensure colors have consistent perceived lightness.
+-   **Cognitive Load**: The mental effort required to understand information.
+-   **Colorimetry**: The science and technology of quantifying and describing color and how we perceive it.
+-   **Color Sensation/Perception**: The personal experience of color that our brain creates when processing color stimuli.
+-   **Color space**: A specific system for defining and naming colors. Think of it like a recipe that uses numbers to describe a color precisely.
+-   **Color Stimulus**: The physical source of color - measurable light waves or reflected wavelengths that enter our eyes.
+-   **Color Vision Deficiency (CVD)**: A condition where people have difficulty distinguishing between certain colors, often called "color blindness."
+-   **Cones**: Light-sensitive cells in the retina responsible for color vision in daylight conditions.
+-   **Contrast Sensitivity**: How well we can detect differences between an object and its background.
+-   **Diverging Palette**: Colors that use two contrasting hues on the ends with a neutral middle, used for data that deviates from a midpoint.
+-   **HSL (Hue, Saturation, Lightness)**: A color model that computers use but doesn't match human color perception well.
+-   **Pre-attentive Processing**: How our brain processes visual information before we're consciously aware of it.
+-   **Qualitative Palette**: Colors used for categorical data that has no inherent order.
+-   **Retina**: The light-sensitive layer at the back of the eye that contains cells for detecting light and color.
+-   **Sequential Palette**: A color gradient from light to dark used for numeric data that goes from low to high values.
+-   **Subtractive Color Mixing**: Creating colors by removing or absorbing certain wavelengths of light (used in printing).
+-   **Visual Acuity**: The sharpness or clarity of vision.
+-   **Visual Cortex**: The part of the brain that processes visual information and creates our sensation of color.
+-   **Wavelengths**: The physical measurement of light that determines what color we see, measured in nanometers (nm).
+-   **WCAG (Web Content Accessibility Guidelines)**: International standards for making web content accessible to people with disabilities.
+
+<!-- ## Terms and Definitions -->
+
+<!-- -   **Colorimetry**: the science and technology of quantifying and describing color and how we perceive it. -->
+
+<!-- -   **Color space**: A color space is a specific system for defining and naming colors. Think of it like a recipe that uses numbers to describe a color precisely. -->
+
+<!-- - **Color Stimulus**: The physical source of color - measurable light waves or reflected wavelengths that enter our eyes. -->
+
+<!-- - **Color Sensation/Perception**: The personal experience of color that our brain creates when processing color stimuli. -->
+
+<!-- - **Wavelengths**: The physical measurement of light that determines what color we see, measured in nanometers (nm). -->
+
+<!-- - **Cones**: Light-sensitive cells in the retina responsible for color vision in daylight conditions. -->
+
+<!-- - **Retina**: The light-sensitive layer at the back of the eye that contains cells for detecting light and color. -->
+
+<!-- - **Visual Cortex**: The part of the brain that processes visual information and creates our sensation of color. -->
+
+<!-- - **Color Vision Deficiency (CVD)**: A condition where people have difficulty distinguishing between certain colors, often called "color blindness." -->
+
+<!-- - **Contrast Sensitivity**: How well we can detect differences between an object and its background. -->
+
+<!-- - **Visual Acuity**: The sharpness or clarity of vision. -->
+
+<!-- - **Cognitive Load**: The mental effort required to understand information. -->
+
+<!-- - **WCAG (Web Content Accessibility Guidelines)**: International standards for making web content accessible to people with disabilities. -->
+
+<!-- - **APCA (Accessible Perceptual Contrast Algorithm)**: A modern method for calculating color contrast that considers human perception factors like font size and weight. -->
+
+<!-- - **Qualitative Palette**: Colors used for categorical data that has no inherent order. -->
+
+<!-- - **Sequential Palette**: A color gradient from light to dark used for numeric data that goes from low to high values. -->
+
+<!-- - **Diverging Palette**: Colors that use two contrasting hues on the ends with a neutral middle, used for data that deviates from a midpoint. -->
+
+<!-- - **Pre-attentive Processing**: How our brain processes visual information before we're consciously aware of it. -->
+
+<!-- - **Additive Color Mixing**: Creating colors by adding different wavelengths of light together (used in screens). -->
+
+<!-- - **Subtractive Color Mixing**: Creating colors by removing or absorbing certain wavelengths of light (used in printing). -->
+
+<!-- - **HSL (Hue, Saturation, Lightness)**: A color model that computers use but doesn't match human color perception well. -->
+
+<!-- - **CIELAB/LCh**: Color spaces designed around human perception that ensure colors have consistent perceived lightness. -->
+
+------------------------------------------------------------------------
+
+### Resources
+#### Tools
+
+-   [**APCA Contrast Calculator**](https://apcacontrast.com/) - The official APCA contrast calculator for modern perceptual contrast
+-   [**Accessible Palette**](https://accessiblepalette.com/) - Generate accessible color palettes in perceptual color spaces
+-   [**Accessible Color Design**](https://accessiblecolor.design/) - Another tool for generating accessible color palettes
+-   [**Colour Contrast Analyser application**](https://www.tpgi.com/color-contrast-checker/) - Traditional color contrast analysis tool
+-   [**siegemedia Luminosity Colour Contrast Ratio Analyser**](https://contrast-ratio.com/) - Tool for measuring luminosity-based contrast ratios
+-   [**WebAIM Contrast Checker**](https://webaim.org/resources/contrastchecker/) - Simple utility for verifying color contrast compliance
+-   [**Adobe Color - Color Blind Safe Testing Tool**](https://color.adobe.com/create/color-accessibility) - Adobe's integrated color vision simulation tool
+-   [**Adobe Color - Contrast Checker**](https://color.adobe.com/create/color-contrast-analyzer) - Adobe's contrast analysis tool
+-   [**Coblis Color Blindness Simulator**](https://www.color-blindness.com/coblis-color-blindness-simulator/) - Upload images to see how they appear with different types of CVD
+-   [**Coloring for Colorblindness**](https://davidmathlogic.com/colorblind/) - Overview of Colorblindness
+-   [**Chroma.js Color Palette Helper**](https://gka.github.io/palettes/) - Generate perceptually uniform color scales
+-   [**Viz Palette**](https://projects.susielu.com/viz-palette) - Test color palettes for data visualization with different CVD simulations
+-   [**ColorBrewer**](http://colorbrewer2.org) - Classic tool for cartographic color schemes
+-   [**Colours in Cultures**](https://informationisbeautiful.net/visualizations/colours-in-cultures/) - Visualization of color meanings across cultures
+
+#### Additional Reading
+
+-   [**We Are Colorblind Resources**](https://wearecolorblind.com/resources/)
+-   [**Datawrapper Colors for Data Viz Style Guides**](https://www.datawrapper.de/blog/colors-for-data-vis-style-guides)
+-   [**Urban Institute Style Guide**](https://urban-institute.medium.com/urban-institutes-data-visualization-style-guide-a-living-document-b90710702a9f) - Real-world example of an accessible design system
+-   [**Nightingale Style Guidelines**](https://medium.com/nightingale/style-guidelines-92ebe166addc)
+-   [**Do no harm guide: Centering accessibility in data visualization**](https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization)
+-   [**The realities and myths of contrast and color**](https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color)
+-   [**Accessible palette: Stop using HSL for color systems**](https://www.wildbit.com/blog/accessible-palette-stop-using-hsl-for-color-systems)
+-   [**Gender + color in data visualization**](https://www.datawrapper.de/blog/gendercolor)
+-   [**Designing a scalable and accessible color system for your design system**](https://uxdesign.cc/designing-a-scalable-and-accessible-color-system-for-your-design-system-f98207eda166)
+-   [**Data charts and color blindness**](https://www.sigmacomputing.com/blog/data-charts-color-blindness)
+-   [**Accessibility design: Color palettes for data visualization**](https://thevisualagency.com/tva-blog-articles/accessibility-design-color-palettes-for-data-visualization/)
+-   [**Types of Color Vision Deficiency**](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness) - National Eye Institute (NEI), National Institutes of Health (NIH), U.S. Department of Health and Human Services (HHS)
+-   [**Building color palettes in your data visualization style guides**](https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/) - 2023 research on color vision (also cited as "Advances in color vision deficiency research")
+-   [**Effects of chromatic and luminance contrast on reading**](https://www.researchgate.net/publication/21147929_Effects_of_chromatic_and_luminance_contrast_on_reading) - Knoblauch et al., 1991 - Research on how contrast affects readability
+-   [**Achromatic luminance contrast sensitivity in X-linked color-deficient observers**](https://pubmed.ncbi.nlm.nih.gov/24103453/) - Márta Janáky et al., 2013 - Study on contrast sensitivity in color deficiency
+-   [**Contrast sensitivity of patients with congenital color vision deficiency**](https://pubmed.ncbi.nlm.nih.gov/29500697/) - Cagri Ilhan et al., 2018 - Recent research on contrast perception
+-   [**Computerized simulation of color appearance for dichromats**](https://doi.org/10.1364/JOSAA.25.002377) - Brettel, H., Viénot, F., & Mollon, J. D. (2008)
+-   [**CIE Color Fundamentals**](https://web.archive.org/web/20090515032644/http://www.physics.nist.gov/Divisions/Div844/facilities/photo/Publications/OhnoNIP16-2000.pdf) - Ohno, Y. (2000) - Foundational color science
+
+#### Reference Materials
+
+-   [**APCA Documentation**](https://git.apcacontrast.com/) - Complete technical documentation for APCA
+-   [**WCAG 3.0 Draft Guidelines**](https://w3c.github.io/wcag3/guidelines/) - The emerging next-generation accessibility standards
+-   [**WCAG Understanding Contrast Minimum**](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - Current standard for contrast
+-   [**The American Printing House for the Blind Guidelines for Large Printing**](https://www.aph.org/resources/large-print-guidelines/) - Standards and recommendations for large print materials
+-   [**National Library Service for the Blind and Physically Handicapped (NLS) reference guide**](https://www.loc.gov/nls/) - Official guidelines for accessible print materials
+
+<!-- ### Color Accessibility & Contrast Tools -->
+
+<!-- - **[APCA Contrast Calculator](https://apcacontrast.com/)** - The official APCA contrast calculator for modern perceptual contrast -->
+
+<!-- - **[Accessible Palette](https://accessiblepalette.com/)** - Generate accessible color palettes in perceptual color spaces. App uses the chroma.js library to generate color ranges with consistent lightness between levels. -->
+
+<!-- - **[Accessible Color Design](https://accessiblecolor.design/)** - Another tool for generatingg accessible color palettes  -->
+
+<!-- - **[Colour Contrast Analyser application](https://www.tpgi.com/color-contrast-checker/)** - Traditional color contrast analysis tool -->
+
+<!-- - **[siegemedia Luminosity Colour Contrast Ratio Analyser](https://contrast-ratio.com/)** - Tool for measuring luminosity-based contrast ratios -->
+
+<!-- - **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)** - Simple utility for verifying color contrast compliance -->
+
+<!-- - **[Adobe Color - Color Blind Safe Testing Tool](https://color.adobe.com/create/color-accessibility)** - Adobe's integrated color vision simulation tool -->
+
+<!-- - **[Adobe Color - Contrast Checker](https://color.adobe.com/create/color-contrast-analyzer)** - Adobe's  contrast analysis tool -->
+
+<!-- ### Color Vision Deficiency Simulation & Support -->
+
+<!-- - **[Coblis Color Blindness Simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/)** - Upload images to see how they appear with different types of CVD -->
+
+<!-- - **[Coloring for Colorblindness](https://davidmathlogic.com/colorblind/)** - Overview of Colorblindness -->
+
+<!-- - **[Types of Color Vision Deficiency](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness)** - National Eye Institute (NEI), National Institutes of Health (NIH), U.S. Department of Health and Human Services (HHS) -->
+
+<!-- ### Large Print & Visual Accessibility -->
+
+<!-- - **[The American Printing House for the Blind Guidelines for Large Printing](https://www.aph.org/resources/large-print-guidelines/)** - Standards and recommendations for large print materials -->
+
+<!-- - **[National Library Service for the Blind and Physically Handicapped (NLS) reference guide](https://www.loc.gov/nls/)** - Official guidelines for accessible print materials -->
+
+<!-- ### Palette Generation & Evaluation -->
+
+<!-- - **[Chroma.js Color Palette Helper](https://gka.github.io/palettes/)** - Generate perceptually uniform color scales -->
+
+<!-- - **[Viz Palette](https://projects.susielu.com/viz-palette)** - Test color palettes for data visualization with different CVD simulations -->
+
+<!-- - **[ColorBrewer](http://colorbrewer2.org)** - Classic tool for cartographic color schemes -->
+
+<!-- ### Documentation & Specifications -->
+
+<!-- - **[APCA Documentation](https://git.apcacontrast.com/)** - Complete technical documentation for APCA -->
+
+<!-- - **[WCAG 3.0 Draft Guidelines](https://w3c.github.io/wcag3/guidelines/)** - The emerging next-generation accessibility standards -->
+
+<!-- - **[WCAG Understanding Contrast Minimum](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)** - Current standard for contrast  -->
+
+<!-- ### Educational Resources & Articles -->
+
+<!-- - **[We Are Colorblind Resources](https://wearecolorblind.com/resources/)**  -->
+
+<!-- - **[Datawrapper Colors for Data Viz Style Guides](https://www.datawrapper.de/blog/colors-for-data-vis-style-guides)**  -->
+
+<!-- - **[Urban Institute Style Guide](https://urban-institute.medium.com/urban-institutes-data-visualization-style-guide-a-living-document-b90710702a9f)** - Real-world example of an accessible design system -->
+
+<!-- - **[Nightingale Style Guidelines](https://medium.com/nightingale/style-guidelines-92ebe166addc)** -->
+
+<!-- ### Scientific References -->
+
+<!-- - **[CIE Color Fundamentals](https://web.archive.org/web/20090515032644/http://www.physics.nist.gov/Divisions/Div844/facilities/photo/Publications/OhnoNIP16-2000.pdf)** - Foundational color science -->
+
+<!-- - **[Building color palettes in your data visualization style guides](https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/)** - 2023 research on color vision -->
+
+<!-- - **[Effects of chromatic and luminance contrast on reading](https://www.researchgate.net/publication/21147929_Effects_of_chromatic_and_luminance_contrast_on_reading)** - Knoblauch et al., 1991 - Research on how contrast affects readability -->
+
+<!-- - **[Achromatic luminance contrast sensitivity in X-linked color-deficient observers](https://pubmed.ncbi.nlm.nih.gov/24103453/)** - Márta Janáky et al., 2013 - Study on contrast sensitivity in color deficiency -->
+
+<!-- - **[Contrast sensitivity of patients with congenital color vision deficiency](https://pubmed.ncbi.nlm.nih.gov/29500697/)** - Cagri Ilhan et al., 2018 - Recent research on contrast perception in congenital color vision deficiency -->
+
+<!-- ### Cultural & Contextual Resources -->
+
+<!-- - **[Colours in Cultures](https://informationisbeautiful.net/visualizations/colours-in-cultures/)** - Visualization of color meanings across cultures -->
+
+<!-- - **[Gender and Color in Data Vis](https://www.datawrapper.de/blog/gendercolor)** - Moving beyond gender color stereotypes -->
+
+<!-- #### Scientific Papers & Journal Articles -->
+
+<!-- Brettel, H., Viénot, F., & Mollon, J. D. (2008). Computerized simulation of color appearance for dichromats. Journal of the Optical Society of America A, 25(10), 2377-2389. https://doi.org/10.1364/JOSAA.25.002377 -->
+
+<!-- Ohno, Y. (2000). CIE fundamentals for color measurements. In NIP16: International Conference on Digital Printing Technologies (pp. 540-545). IS&T. https://web.archive.org/web/20090515032644/http://www.physics.nist.gov/Divisions/Div844/facilities/photo/Publications/OhnoNIP16-2000.pdf -->
+
+<!-- Rahman, M. S., & Pujanauski, L. (2023). Advances in color vision deficiency research: Implications for data visualization accessibility. PMC Journal. https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/ -->
+
+<!-- Technical Reports & Standards -->
+
+<!-- Myndex. (2023). APCA: Accessible Perceptual Contrast Algorithm. Git repository. https://git.apcacontrast.com/ -->
+
+<!-- Myndex. (2023). Why APCA? Git repository documentation. https://git.apcacontrast.com/documentation/WhyAPCA -->
+
+<!-- Myndex. (2023). APCA easy introduction. Git repository documentation. https://git.apcacontrast.com/documentation/APCAeasyIntro -->
+
+<!-- World Wide Web Consortium. (2023). Web Content Accessibility Guidelines (WCAG) 3.0. W3C Editor's Draft. https://w3c.github.io/wcag3/guidelines/ -->
+
+<!-- World Wide Web Consortium. (2023). Web Content Accessibility Guidelines (WCAG) 2.2: Relative luminance. https://www.w3.org/TR/WCAG22/relative-luminance.html -->
+
+<!-- #### Online Resources & Blog Posts -->
+
+<!-- Cherepinsky, I. (2023, June 15). Do no harm guide: Centering accessibility in data visualization. Urban Institute. https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization -->
+
+<!-- Cox, A. (2022, September 12). The realities and myths of contrast and color. Smashing Magazine. https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color -->
+
+<!-- Elavsky, F. (2021, October 12). Accessible palette: Stop using HSL for color systems. Wildbit. https://www.wildbit.com/blog/accessible-palette-stop-using-hsl-for-color-systems -->
+
+<!-- Koch, L. (2021, August 24). Gender + color in data visualization. Datawrapper Blog. https://www.datawrapper.de/blog/gendercolor -->
+
+<!-- Koch, L. (2021, September 14). Colors for data visual style guides. Datawrapper Blog. https://www.datawrapper.de/blog/colors-for-data-vis-style-guides -->
+
+<!-- McCandless, D. (n.d.). Colours in cultures. Information is Beautiful. https://informationisbeautiful.net/visualizations/colours-in-cultures/ -->
+
+<!-- Nightingale Editorial Team. (n.d.). Style guidelines. Nightingale. https://medium.com/nightingale/style-guidelines-92ebe166addc -->
+
+<!-- Rogers, O. (2021, July 19). Designing a scalable and accessible color system for your design system. UX Collective. https://uxdesign.cc/designing-a-scalable-and-accessible-color-system-for-your-design-system-f98207eda166 -->
+
+<!-- Sigma Computing. (2023, May 15). Data charts and color blindness. Sigma Computing Blog. https://www.sigmacomputing.com/blog/data-charts-color-blindness -->
+
+<!-- The Visual Agency. (2023, March 21). Accessibility design: Color palettes for data visualization. The Visual Agency Blog. https://thevisualagency.com/tva-blog-articles/accessibility-design-color-palettes-for-data-visualization/ -->
+
+<!-- Urban Institute. (2023, June 15). Urban Institute's data visualization style guide. Medium. https://urban-institute.medium.com/urban-institutes-data-visualization-style-guide-a-living-document-b90710702a9f -->
+
+<!-- We Are Colorblind. (n.d.). Resources. https://wearecolorblind.com/resources/ -->
+
+<!-- ####Tools & Software -->
+
+<!-- Adobe. (n.d.). Color accessibility tools. https://color.adobe.com/create/color-accessibility -->
+
+<!-- Adobe. (n.d.). Color contrast analyzer. https://color.adobe.com/create/color-contrast-analyzer -->
+
+<!-- Alder, M. (2025). CIE1931xy gamut comparison [Digital image]. Based on work by BenRG and cmglee. -->
+
+<!-- Elavsky, F. (n.d.). Accessible color palette builder. https://accessiblepalette.com/ -->
+
+<!-- Elavsky, F. (n.d.). Accessible color design. https://accessiblecolor.design/ -->
+
+<!-- Lu, S. (n.d.). Viz Palette. https://projects.susielu.com/viz-palette -->
+
+<!-- Myndex. (n.d.). APCA contrast calculator. https://apcacontrast.com/ -->
+
+<!-- Myndex. (n.d.). APCA documentation. https://git.apcacontrast.com/ -->
+
+<!-- *\[List of relevant tools and resources for color accessibility and data visualization\]* - <https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color> -->
+
+<!-- <https://physics.info/color/> -->
+
+<!-- <https://rmit.pressbooks.pub/colourtheory1/front-matter/introduction-what-is-colour-theory/> -->
+
+<!-- <https://git.apcacontrast.com/documentation/APCAeasyIntro> -->
+
+<!-- <https://www.wildbit.com/blog/accessible-palette-stop-using-hsl-for-color-systems> -->
+
+<!-- <https://www.w3.org/TR/WCAG22/relative-luminance.html> -->
+
+<!-- <https://www.sciencedirect.com/science/article/abs/pii/S0167947308005549?via%3Dihub> -->
+
+<!-- <https://www.sigmacomputing.com/blog/data-charts-color-blindness> -->
+
+<!-- <https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40> -->
+
+<!-- <https://w3c.github.io/wcag3/guidelines/> -->
+
+<!-- <https://thevisualagency.com/tva-blog-articles/accessibility-design-color-palettes-for-data-visualization/> -->
+
+<!-- CIE Fundamentals for Color Measurements: <https://web.archive.org/web/20090515032644/http://www.physics.nist.gov/Divisions/Div844/facilities/photo/Publications/OhnoNIP16-2000.pdf> -->
+
+<!-- <https://uxdesign.cc/data-visualization-for-color-accessibility-8a30ce25d90b> -->
+
+<!-- <https://urban-institute.medium.com/urban-institutes-data-visualization-style-guide-a-living-document-b90710702a9f> -->
+
+<!-- <https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/> -->
+
+<!-- <https://uxdesign.cc/designing-a-scalable-and-accessible-color-system-for-your-design-system-f98207eda166> -->
+
+<!-- <https://git.apcacontrast.com/documentation/WhyAPCA> -->
+
+<!-- <https://www.datawrapper.de/blog/gendercolor> -->
+
+<!-- <https://www.datawrapper.de/blog/colors-for-data-vis-style-guides#accessibility> -->
+
+<!-- <https://wearecolorblind.com/resources/> -->
+
+<!-- <https://medium.com/nightingale/style-guidelines-92ebe166addc> -->
+
+<!-- ## Tools -->
+
+<!-- <https://apcacontrast.com/> -->
+
+<!-- <https://accessiblepalette.com/> -->
+
+<!-- <https://git.apcacontrast.com/> -->
+
+<!-- <https://accessiblecolor.design/> -->
+
+<!-- <https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization> -->
+
+<!-- <https://www.sciencedirect.com/science/article/abs/pii/S0911604422000276> <https://informationisbeautiful.net/visualizations/colours-in-cultures/> -->
+
+<!-- <https://www.color-blindness.com/coblis-color-blindness-simulator/> -->
+
+<!-- <https://gka.github.io/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1> -->
+
+<!-- <https://projects.susielu.com/viz-palette> -->
+
+<!-- <https://color.adobe.com/create/color-contrast-analyzer> -->
+
+<!-- <https://color.adobe.com/create/color-accessibility> -->
+
+<!-- <https://webaim.org/resources/contrastchecker/> -->

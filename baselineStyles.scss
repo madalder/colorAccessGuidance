@@ -1,0 +1,157 @@
+/*-- scss:defaults --*/
+
+// Import fonts from Google
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@300;500;700&family=Atkinson+Hyperlegible+Mono&display=swap');
+
+
+
+
+// ========== COLOR VARIABLES ==========
+// Primary colors
+$navy: #005182;
+$orange: #C65227;
+
+// Secondary colors
+$light-blue: #70C4E8;
+$green: #47BA83;
+$yellow: #EBB41F;
+
+// Tertiary colors
+$medium-blue: #4679AE;
+$dark-orange: #90361F;
+$light-yellow: #FFD780;
+$palest-blue: #cae6f2;
+
+// Neutrals
+$white: #FFFFFF;
+$black: #000000;
+$off-white: #fcfbfa;
+$light-grey: #E6E1E7;
+$darkest-grey: #242C3D;
+
+// Semantic colors
+$body-bg: $white;
+$body-color: $black;
+$link-color: $navy;
+$code-block-bg: $palest-blue;
+$code-block-border-color: $palest-blue;
+$tabset-border-color: $darkest-grey;
+
+// ========== TYPOGRAPHY VARIABLES ==========
+$font-family-sans-serif: "Jost", sans-serif;
+$font-family-title: "Sunflower", sans-serif;
+$font-family-monospace: "Atkinson Hyperlegible Mono", monospace;
+$presentation-title-slide-text-align: "left";
+
+
+
+// Font weights
+
+$font-weight-xtra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-xtra-bold: 800;
+
+// ========== HEADING STYLES ==========
+// Define heading fonts according to your requirements:
+// h1-h3: Sunflower, h4-h6: Jost
+$presentation-h1-font: $font-family-title;
+$presentation-h2-font: $font-family-title;
+$presentation-h3-font: $font-family-sans-serif;
+$presentation-h4-font: $font-family-sans-serif;
+$presentation-h5-font: $font-family-sans-serif;
+$presentation-h6-font: $font-family-sans-serif;
+
+// Heading colors
+$h1-color: $orange;
+$h2-color: $navy;
+$h3-color: $orange;
+$h4-color: $navy;
+$h5-color: $navy;
+$h6-color: $navy;
+
+// Heading weights
+$h1-weight: $font-weight-xtra-bold;
+$h2-weight: $font-weight-bold;
+$h3-weight: $font-weight-bold;
+$h4-weight: $font-weight-semi-bold;
+$h5-weight: $font-weight-semi-bold;
+$h6-weight: $font-weight-medium;
+
+/*-- scss:rules --*/
+
+// ========== HEADING STYLES ==========
+// Apply heading styles with proper font families
+h1 {
+  font-family: $presentation-h1-font;
+  font-weight: $h1-weight;
+  color: $h1-color;
+}
+
+h2 {
+  font-family: $presentation-h2-font;
+  font-weight: $h2-weight;
+  color: $h2-color;
+}
+
+h3 {
+  font-family: $presentation-h3-font;
+  font-weight: $h3-weight;
+  color: $h3-color;
+}
+
+h4 {
+  font-family: $presentation-h4-font;
+  font-weight: $h4-weight;
+  color: $h4-color;
+}
+
+h5 {
+  font-family: $presentation-h5-font;
+  font-weight: $h5-weight;
+  color: $h5-color;
+}
+
+h6 {
+  font-family: $presentation-h6-font;
+  font-weight: $h6-weight;
+  color: $h6-color;
+}
+
+
+// ========== CUSTOM COMPONENTS ==========
+// Rounded box component
+.rounded-box {
+  border: 5px solid $navy;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: $navy;
+  margin-bottom: 8px;
+  color: $white !important;
+
+  ul {
+    list-style-type: "✔ ";
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+}
+
+
+
+hr {
+    margin: 1rem 0;
+    color: $light-blue !important;
+    border: 0;
+    border-top: 2.5px solid !important;
+    opacity: 1 !important;
+    border-radius: 20px !important;
+}
+
+
+
+
+
+
