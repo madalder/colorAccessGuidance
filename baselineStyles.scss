@@ -151,7 +151,19 @@ hr {
 }
 
 
+.title-block-header {
 
+  color: $navy !important;
+}
+
+#title-block-header.quarto-title-block.default {
+  .quarto-title-meta {
+    display: grid;
+    // See https://github.com/quarto-dev/quarto-cli/issues/9539
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+  }
+}
 
 
 

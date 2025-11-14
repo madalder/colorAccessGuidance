@@ -4,6 +4,12 @@ subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
 
 ---
 
+::: {.context collapse="false"}
+## Document Purpose
+
+{{< meta description >}}
+
+:::
 
 {{< include _guide.qmd >}}
 
@@ -121,7 +127,7 @@ subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
 -   [**Data charts and color blindness**](https://www.sigmacomputing.com/blog/data-charts-color-blindness)
 -   [**Accessibility design: Color palettes for data visualization**](https://thevisualagency.com/tva-blog-articles/accessibility-design-color-palettes-for-data-visualization/)
 -   [**Types of Color Vision Deficiency**](https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/color-blindness/types-color-blindness) - National Eye Institute (NEI), National Institutes of Health (NIH), U.S. Department of Health and Human Services (HHS)
--   [**Building color palettes in your data visualization style guides**](https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/) - 2023 research on color vision (also cited as "Advances in color vision deficiency research")
+-   [**Building color palettes in your data visualization style guides**](https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/) - 2023 research on color vision 
 -   [**Effects of chromatic and luminance contrast on reading**](https://www.researchgate.net/publication/21147929_Effects_of_chromatic_and_luminance_contrast_on_reading) - Knoblauch et al., 1991 - Research on how contrast affects readability
 -   [**Achromatic luminance contrast sensitivity in X-linked color-deficient observers**](https://pubmed.ncbi.nlm.nih.gov/24103453/) - Márta Janáky et al., 2013 - Study on contrast sensitivity in color deficiency
 -   [**Contrast sensitivity of patients with congenital color vision deficiency**](https://pubmed.ncbi.nlm.nih.gov/29500697/) - Cagri Ilhan et al., 2018 - Recent research on contrast perception
