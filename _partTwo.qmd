@@ -1,4 +1,4 @@
-### Part 2: The Diversity of Human Color Perception {#sec-partTwo}
+### Part 2: The Diversity of Human Color Perception {.part #sec-partTwo}
 
 #### The Magic of Perspective: Colors as We See Them {#sec-colorPerception}
 
@@ -17,21 +17,19 @@ Our perception of color is not a single, universal experience. It varies greatly
 
 Vision differences are common and exist on a spectrum. Designing for this diversity is a core principle of accessibility.
 
--   **Color Vision Deficiency (CVD)** means a person has trouble distinguishing between certain colors. It is often called "color blindness," but true color blindness (seeing only in black and white) is very rare. Most people with CVD see colors, but differently.
+**Color Vision Deficiency (CVD)** means a person has trouble distinguishing between certain colors. It is often called "color blindness," but true color blindness (seeing only in black and white) is very rare. Most people with CVD see colors, but differently.
 
-    -   The most common types affect how people see reds and greens. They are caused when one type of color-sensitive cell in the eye (called a cone) doesn't work properly or is missing.
+The most common types affect how people see reds and greens. They are caused when one type of color-sensitive cell in the eye (called a cone) doesn't work properly or is missing.
 
-        -   **Protan-type (L cone deficiency)** Red appears dimmer and can be hard to tell apart from green.
+  * **Protanopia (L cone deficiency)** Red appears dimmer and can be hard to tell apart from green.
+  * **Deuteranopia (M cone deficiency):** This is the most common type. It's hard to tell reds and greens apart, but colors don't look dimmer.
+  * **Tritanopia (S cone deficiency):** This is very rare. It causes confusion between blue and yellow.
+  * **Achromatopsia (2 or 3 cone deficiency):** Non-color, or achromatic, types are the rarest. Folks experiencing this type usually face other vision difficulties, including poor and severe photophobia.
 
-        -   **Deutan-type (M cone deficiency):** This is the most common type. It's hard to tell reds and greens apart, but colors don't look dimmer.
+Vision changes throughout our lives. Key factors that affect legibility include:
 
-        -   **Tritan-type (S cone deficiency):** This is very rare. It causes confusion between blue and yellow.
-
--   Vision changes throughout our lives. Key factors that affect legibility include:
-
-    -   **Contrast Sensitivity:** This is how well we can detect the difference between an object and its background. It is different from color perception. As we age, or for those with low vision, reduced contrast sensitivity can make light gray text on a white background very hard to read.
-
-    -   **Visual Acuity:** This is the sharpness of our focus. "20/20 vision" is a standard measure, but it is not perfect vision. Many people have vision that is less sharp, making small, thin text difficult to read.
+  * **Contrast Sensitivity:** This is how well we can detect the difference between an object and its background. It is different from color perception. As we age, or for those with low vision, reduced contrast sensitivity can make light gray text on a white background very hard to read.
+  * **Visual Acuity:** This is the sharpness of our focus. "20/20 vision" is a standard measure, but it is not perfect vision. Many people have vision that is less sharp, making small, thin text difficult to read.
 
 #### Cultural & Psychological Considerations {#sec-culturalPsychConsiderations}
 
@@ -39,36 +37,43 @@ Vision differences are common and exist on a spectrum. Designing for this divers
 
 Color is a powerful communication tool, but its meaning is deeply shaped by culture and context. Using it effectively requires us to think beyond our own assumptions. The meaning of a color is not universal; it is deeply shaped by culture, history, and tradition. The same color can have completely different connotations in different parts of the world.
 
--   While most fully developed languages have words for the same eleven basic colors (white, black, red, green, yellow, blue, brown, grey, orange, purple, pink), the symbolic meanings attached to them can vary dramatically.
-    -   **Examples of Cultural Color Symbolism:**
+While most fully developed languages have words for the same eleven basic colors (white, black, red, green, yellow, blue, brown, grey, orange, purple, pink), the symbolic meanings attached to them can vary dramatically.
+  
+###### Examples of Cultural Color Symbolism:
+  * **White:** In Western cultures, it often symbolizes purity and weddings. In many Eastern cultures, it is the color of mourning and funerals.
+  * **Red:** In China, it is a lucky color associated with prosperity and celebration. In South Africa, it is a color of mourning.
+  * **Purple:** In ancient Rome, Tyrian purple dye was so rare and expensive that it became the color of emperors and senators. This association with royalty and status continues in many parts of the world today.
+  
+::: {.callout-tip}
 
-        -   **White:** In Western cultures, it often symbolizes purity and weddings. In many Eastern cultures, it is the color of mourning and funerals.
-        -   **Red:** In China, it is a lucky color associated with prosperity and celebration. In South Africa, it is a color of mourning.
-        -   **Purple:** In ancient Rome, Tyrian purple dye was so rare and expensive that it became the color of emperors and senators. This association with royalty and status continues in many parts of the world today.
+Check out [**Colours in Cultures**](https://informationisbeautiful.net/visualizations/colours-in-cultures/), an infographic that visualizes color meanings across cultures
+  
+:::
 
-    -   **Avoiding Stereotypes:**
+###### Avoiding Stereotypes:\
 
-        -   It is crucial to move away from stereotypical color associations, such as using pink for girls and blue for boys in gender data visualizations. These choices can mislead readers and reinforce harmful biases. Instead, choose colors based on the data's context or to deliberately challenge conventions.
+It is crucial to move away from stereotypical color associations, such as using pink for girls and blue for boys in gender data visualizations. 
 
-    -   **Key Takeaway:** When choosing colors for a global audience, it is crucial to research their cultural meanings to ensure your message is interpreted correctly and respectfully.
+  * These choices can mislead readers and reinforce harmful biases.   * Instead, choose colors based on the data's context or to deliberately challenge conventions (without obfuscating or confusing the audience)
+
+**Key Takeaway:** When choosing colors for a global audience, it is crucial to research their cultural meanings to ensure your message is interpreted correctly and respectfully.
 
 ##### Emotional and Pre-attentive Responses: {#sec-Psychology}
 
--   Color has a powerful, often instantaneous, effect on our emotions and where we focus our attention. This happens both through learned cultural associations and through innate, pre-attentive processing (how our brain interprets visual information before we are even consciously aware of it). While personal experience plays a role, studies suggest some emotional links to color are widely shared. Common associations include:
-    -   **Red:** Energy, passion, danger, excitement
-    -   **Blue:** Calm, trust, stability, peace
-    -   **Yellow:** Happiness, optimism, warmth
-    -   **Green:** Growth, nature, relaxation, wealth
+Color has a powerful, often instantaneous, effect on our emotions and where we focus our attention. This happens both through learned cultural associations and through innate, pre-attentive processing (how our brain interprets visual information before we are even consciously aware of it). While personal experience plays a role, studies suggest some emotional links to color are widely shared. Common associations include:
 
-**Using Color in Design:**
+  * **Red:** Energy, passion, danger, excitement
+  * **Blue:** Calm, trust, stability, peace
+  * **Yellow:** Happiness, optimism, warmth
+  * **Green:** Growth, nature, relaxation, wealth
 
--   **Guiding Attention:** High-contrast, saturated colors can make key data "pop" and direct the viewer's focus pre-attentively (before they even consciously think about it).
+###### Using Color in Design:
 
--   **Evoking Meaning:** While personal experiences vary, some color-emotion links (e.g., red for urgency, blue for calm) are widely shared and can be used to support your narrative.
+  * **Guiding Attention:** High-contrast, saturated colors can make key data "pop" and direct the viewer's focus pre-attentively (before they even consciously think about it).
+  * **Evoking Meaning:** While personal experiences vary, some color-emotion links (e.g., red for urgency, blue for calm) are widely shared and can be used to support your narrative.
+  * **Reducing Cognitive Load:** A strategic color hierarchy helps viewers understand what is most important without unnecessary mental effort.
 
--   **Reducing Cognitive Load:** A strategic color hierarchy helps viewers understand what is most important without unnecessary mental effort.
-
-::: {.callout-caution title="A Note on 'Color Psychology'"}
+::: {.callout-warning title="A Note on 'Color Psychology'"}
 It's important to distinguish between observed trends and unproven theories. While evidence shows color affects mood and attention, systems that claim to diagnose personality types based on color preferences (like some outdated models from Carl Jung) are not scientifically supported.
 :::
 

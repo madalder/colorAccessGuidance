@@ -1,0 +1,4 @@
+- source: dataVizColorAccess.qmd
+  netlify:
+    - id: c7aa2491-840d-46ba-9e23-baa9fd475b6d
+      url: https://accesscolordraft.netlify.app

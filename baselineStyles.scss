@@ -18,6 +18,7 @@ $yellow: #EBB41F;
 
 // Tertiary colors
 $medium-blue: #4679AE;
+$light-blue: #70C4E8;
 $dark-orange: #90361F;
 $light-yellow: #FFD780;
 $palest-blue: #cae6f2;
@@ -37,12 +38,17 @@ $code-block-bg: $palest-blue;
 $code-block-border-color: $palest-blue;
 $tabset-border-color: $darkest-grey;
 
+$callout-color-note: $light-blue;
+$callout-color-tip: $yellow;
+$callout-color-important: $green;
+$callout-color-warning: $dark-orange;
+$callout-color-caution: $orange;
+
 // ========== TYPOGRAPHY VARIABLES ==========
 $font-family-sans-serif: "Jost", sans-serif;
 $font-family-title: "Sunflower", sans-serif;
 $font-family-monospace: "Atkinson Hyperlegible Mono", monospace;
 $presentation-title-slide-text-align: "left";
-
 
 
 // Font weights
@@ -60,7 +66,7 @@ $font-weight-xtra-bold: 800;
 // h1-h3: Sunflower, h4-h6: Jost
 $presentation-h1-font: $font-family-title;
 $presentation-h2-font: $font-family-title;
-$presentation-h3-font: $font-family-sans-serif;
+$presentation-h3-font: $font-family-title;
 $presentation-h4-font: $font-family-sans-serif;
 $presentation-h5-font: $font-family-sans-serif;
 $presentation-h6-font: $font-family-sans-serif;

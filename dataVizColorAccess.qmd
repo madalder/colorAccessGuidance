@@ -4,8 +4,9 @@ subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
 
 ---
 
-::: {.context collapse="false"}
-## Document Purpose
+:::{.callout-note collapse="true"}
+
+## About This Document
 
 {{< meta description >}}
 
@@ -14,7 +15,7 @@ subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
 {{< include _guide.qmd >}}
 
 
-## Deep Dive
+## Color Science, Human Perception, and Accessibility: A Deep Dive
 
 {{< include _partOne.qmd >}}
 
@@ -27,28 +28,71 @@ subtitle: "A Guide to Color Science, Human Perception, and Accessibility"
 
 ### Terms and Definitions
 
--   **Additive Color Mixing**: Creating colors by adding different wavelengths of light together (used in screens).
--   **APCA (Accessible Perceptual Contrast Algorithm)**: A modern method for calculating color contrast that considers human perception factors like font size and weight.
--   **CIELAB/LCh**: Color spaces designed around human perception that ensure colors have consistent perceived lightness.
--   **Cognitive Load**: The mental effort required to understand information.
--   **Colorimetry**: The science and technology of quantifying and describing color and how we perceive it.
--   **Color Sensation/Perception**: The personal experience of color that our brain creates when processing color stimuli.
--   **Color space**: A specific system for defining and naming colors. Think of it like a recipe that uses numbers to describe a color precisely.
--   **Color Stimulus**: The physical source of color - measurable light waves or reflected wavelengths that enter our eyes.
--   **Color Vision Deficiency (CVD)**: A condition where people have difficulty distinguishing between certain colors, often called "color blindness."
--   **Cones**: Light-sensitive cells in the retina responsible for color vision in daylight conditions.
--   **Contrast Sensitivity**: How well we can detect differences between an object and its background.
--   **Diverging Palette**: Colors that use two contrasting hues on the ends with a neutral middle, used for data that deviates from a midpoint.
--   **HSL (Hue, Saturation, Lightness)**: A color model that computers use but doesn't match human color perception well.
--   **Pre-attentive Processing**: How our brain processes visual information before we're consciously aware of it.
--   **Qualitative Palette**: Colors used for categorical data that has no inherent order.
--   **Retina**: The light-sensitive layer at the back of the eye that contains cells for detecting light and color.
--   **Sequential Palette**: A color gradient from light to dark used for numeric data that goes from low to high values.
--   **Subtractive Color Mixing**: Creating colors by removing or absorbing certain wavelengths of light (used in printing).
--   **Visual Acuity**: The sharpness or clarity of vision.
--   **Visual Cortex**: The part of the brain that processes visual information and creates our sensation of color.
--   **Wavelengths**: The physical measurement of light that determines what color we see, measured in nanometers (nm).
--   **WCAG (Web Content Accessibility Guidelines)**: International standards for making web content accessible to people with disabilities.
+Additive Color Mixing
+: Creating colors by adding different wavelengths of light together (used in screens).
+
+APCA (Accessible Perceptual Contrast Algorithm)
+: A modern method for calculating color contrast that considers human perception factors like font size and weight.
+
+CIELAB/LCh
+: Color spaces designed around human perception that ensure colors have consistent perceived lightness.
+
+Cognitive Load
+: The mental effort required to understand information.
+
+Colorimetry
+: The science and technology of quantifying and describing color and how we perceive it.
+
+Color Sensation/Perception
+: The personal experience of color that our brain creates when processing color stimuli.
+
+Color space
+: A specific system for defining and naming colors. Think of it like a recipe that uses numbers to describe a color precisely.
+
+Color Stimulus
+: The physical source of color - measurable light waves or reflected wavelengths that enter our eyes.
+
+Color Vision Deficiency (CVD)
+: A condition where people have difficulty distinguishing between certain colors, often called "color blindness."
+
+Cones
+: Light-sensitive cells in the retina responsible for color vision in daylight conditions.
+
+Contrast Sensitivity
+: How well we can detect differences between an object and its background.
+
+Diverging Palette
+: Colors that use two contrasting hues on the ends with a neutral middle, used for data that deviates from a midpoint.
+
+HSL (Hue, Saturation, Lightness)
+: A color model that computers use but doesn't match human color perception well.
+
+Pre-attentive Processing
+: How our brain processes visual information before we're consciously aware of it.
+
+Qualitative Palette
+: Colors used for categorical data that has no inherent order.
+
+Retina
+: The light-sensitive layer at the back of the eye that contains cells for detecting light and color.
+
+Sequential Palette
+: A color gradient from light to dark used for numeric data that goes from low to high values.
+
+Subtractive Color Mixing
+: Creating colors by removing or absorbing certain wavelengths of light (used in printing).
+
+Visual Acuity
+: The sharpness or clarity of vision.
+
+Visual Cortex
+: The part of the brain that processes visual information and creates our sensation of color.
+
+Wavelengths
+: The physical measurement of light that determines what color we see, measured in nanometers (nm).
+
+WCAG (Web Content Accessibility Guidelines)
+: International standards for making web content accessible to people with disabilities.
 
 <!-- ## Terms and Definitions -->
 

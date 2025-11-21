@@ -73,6 +73,7 @@ color:
     # Primary colors
     navy: "#005182"
     orange: "#C65227"
+    blue: "#005182"
 
     # Secondary colors
     light-blue: "#70C4E8"
@@ -99,7 +100,7 @@ color:
   secondary: orange           # Secondary brand color
   tertiary: light-blue        # Tertiary brand color
   success: green              # Positive actions
-  info: medium-blue           # Informational elements
+  info: light-blue           # Informational elements
   warning: yellow             # Warning states
   danger: dark-orange         # Error/danger states
   light: palest-blue          # Light accents

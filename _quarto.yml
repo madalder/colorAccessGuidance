@@ -12,33 +12,27 @@ author-meta: Madoc Alder Marshall
 description: "This guide was created to support KY in developing accessible data visualization color palettes for their larger data viz style guide ([PHIG TA Request #55967](https://asth0.monday.com/boards/4480495811/pulses/9955136601)). The urgency of this work is driven by the U.S. Department of Justice's **2026 deadline** for state and local governments to comply with updated ADA Title II rules, which mandate WCAG 2.1 AA conformance for all digital content. Our goal is to provide KY with an actionable framework to build accessible color systems that follow accessibility best practices. This document also serves as a foundational model for a broader, proactive TA resource on developing fully accessible and compliant data viz style guides."
 title-meta: "Designing with Color for Inclusive and Effective Data Visualization"
 date: last-modified
-published-title: 'Last Updated:'
+published-title: 'Draft Last Modified:'
 resources:
   - static
   - images
 lightbox: true
-custom-callout:
-  context:
-    icon: false
-    appearance: "minimal"
-filters:
-- custom-callout
+callout-appearance: simple
 format:
   html:
     template-partials:
       - title-metadata.html
       - title-block.html
-
+    page-layout: full
     comments:
       hypothesis: true
     grid:
-      margin-width: 75px
-      sidebar-width: 235px
-    page-layout: article
+      sidebar-width: 35%
     theme: [brand, baselineStyles.scss, accessStyles.scss]
     embed-resources: true
     self-contained: true
     toc: true
+    toc-expand: 2
     toc-location: left
     toc-title: Table of Contents
     toc-depth: 4
@@ -47,4 +41,5 @@ format:
     title-block-banner: true
     title-block-categories: true
     fig-responsive: true
+    link-external-icon: true
 
